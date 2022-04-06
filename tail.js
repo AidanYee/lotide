@@ -10,7 +10,7 @@ const tail = function(array) {
   return array.slice(1);
 };
 
-module.exports =  assertEqual;
+
 
 // TEST CODE
 const result = tail(["Hello", "Lighthouse", "Labs"]);
