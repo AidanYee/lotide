@@ -29,3 +29,11 @@ return numOfEachLetter;
 }; 
 
 console.log(countLetters("lighthouse in the house"));
+
+
+const result = countLetters("lighthouse in the house")
+
+assertEqual(result["l"], 1)
+assertEqual(result["i"], 2)
+assertEqual(result["o"], 2)
+assertEqual(result["t"], 1)
