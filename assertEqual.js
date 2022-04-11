@@ -8,9 +8,9 @@ const assertEqual = function(actual, expected) {
 
 
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Lighthouse Labs");
-assertEqual(1, 1);
-assertEqual(1, "Lighthouse Labs");
+// TEST CODE  - moved to test folder
+// assertEqual("Lighthouse Labs", "Lighthouse Labs");
+// assertEqual(1, 1);
+// assertEqual(1, "Lighthouse Labs");
 
 module.exports = assertEqual;
