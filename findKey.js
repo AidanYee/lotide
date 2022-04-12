@@ -38,6 +38,8 @@ assertEqual(findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 1), ("Blue Hill"));// => "noma" */ 
 
+// Dry'ed up the test code by creating variables. Eliminates need to re-wrire the full object to test 
+
 findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
